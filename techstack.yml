@@ -1,0 +1,416 @@
+repo_name: 2lambda123/microbiomeMarker
+report_id: 28ef8a1ba90308ab8861ff999c96c64b
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:54:49+00:00'
+requested_by: snorkell-ai[bot]
+provider: github
+branch: master
+detected_tools_count: 34
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-08-30 16:33:39.000000000 Z
+- name: Markdown
+  description: Text-to-HTML conversion tool/syntax for web writers, by John Gruber
+  website_url: http://daringfireball.net/projects/markdown/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1147/markdown.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-08-30 16:33:39.000000000 Z
+- name: R Language
+  description: A language and environment for statistical computing and graphics
+  website_url: http://www.r-project.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1213/r-logo.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker
+  detection_source: Repo Metadata
+- name: ggplot2
+  description: A data visualization package for the statistical programming language
+    R
+  website_url: https://ggplot2.tidyverse.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/6560/New_Project__90_.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2022-03-17 01:59:37.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: yiluheihei
+  last_updated_on: 2020-03-30 04:21:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/.github/workflows/check-bioc.yml
+  detection_source: ".github/workflows/check-bioc.yml"
+  last_updated_by: yiluheihei
+  last_updated_on: 2022-06-15 03:23:38.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2019-10-17 07:41:14.000000000 Z
+- name: MASS
+  description: Support Functions and Datasets for Venables and Ripley's MASS
+  package_url: https://cran.r-project.org/MASS
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2019-10-17 07:41:14.000000000 Z
+- name: Matrix
+  description: Sparse and Dense Matrix Classes and Methods
+  package_url: https://cran.r-project.org/Matrix
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-04-19 06:35:00.000000000 Z
+- name: caret
+  description: Classification and Regression Training
+  package_url: https://cran.r-project.org/caret
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-04-26 14:34:16.000000000 Z
+- name: coin
+  description: Conditional Inference Procedures in a Permutation Test Framework
+  package_url: https://cran.r-project.org/coin
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2020-03-31 15:28:31.000000000 Z
+- name: covr
+  description: Test Coverage for Packages
+  package_url: https://cran.r-project.org/covr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-04-19 06:35:00.000000000 Z
+- name: dplyr
+  description: A Grammar of Data Manipulation
+  package_url: https://cran.r-project.org/dplyr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2019-10-17 07:41:14.000000000 Z
+- name: e1071
+  description: Misc Functions of the Department of Statistics
+  package_url: https://cran.r-project.org/e1071
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-04-19 06:35:00.000000000 Z
+- name: ggplot2
+  description: Create Elegant Data Visualisations Using the Grammar of Graphics
+  package_url: https://cran.r-project.org/ggplot2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2022-03-17 01:59:37.000000000 Z
+- name: ggsignif
+  description: Significance Brackets for 'ggplot2'
+  package_url: https://cran.r-project.org/ggsignif
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2020-09-21 03:40:38.000000000 Z
+- name: glmnet
+  description: Lasso and Elastic-Net Regularized Generalized Linear Models
+  package_url: https://cran.r-project.org/glmnet
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-04-19 06:35:00.000000000 Z
+- name: kernlab
+  description: Kernel-Based Machine Learning Lab
+  package_url: https://cran.r-project.org/kernlab
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-04-19 06:35:00.000000000 Z
+- name: knitr
+  description: A General-Purpose Package for Dynamic Report Generation in R
+  package_url: https://cran.r-project.org/knitr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-08-10 11:16:24.000000000 Z
+- name: magrittr
+  description: A Forward-Pipe Operator for R
+  package_url: https://cran.r-project.org/magrittr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2019-10-17 07:41:14.000000000 Z
+- name: pROC
+  description: Display and Analyze ROC Curves
+  package_url: https://cran.r-project.org/pROC
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2022-04-13 09:11:21.000000000 Z
+- name: plotROC
+  description: Generate Useful ROC Curve Charts for Print and Interactive Use
+  package_url: https://cran.r-project.org/plotROC
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2022-03-17 01:59:37.000000000 Z
+- name: purrr
+  description: Functional Programming Tools
+  package_url: https://cran.r-project.org/purrr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2019-10-17 07:41:14.000000000 Z
+- name: ranger
+  description: A Fast Implementation of Random Forests
+  package_url: https://cran.r-project.org/ranger
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-08-10 11:16:24.000000000 Z
+- name: rlang
+  description: Functions for Base Types and Core R and 'Tidyverse' Features
+  package_url: https://cran.r-project.org/rlang
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-08-30 16:33:39.000000000 Z
+- name: rmarkdown
+  description: Dynamic Documents for R
+  package_url: https://cran.r-project.org/rmarkdown
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2021-08-31 03:27:35.000000000 Z
+- name: testthat
+  description: Unit Testing for R
+  package_url: https://cran.r-project.org/testthat
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2022-03-07 14:41:34.000000000 Z
+- name: tibble
+  description: Simple Data Frames
+  package_url: https://cran.r-project.org/tibble
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2020-01-01 12:52:06.000000000 Z
+- name: tidyr
+  description: Tidy Messy Data
+  package_url: https://cran.r-project.org/tidyr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2020-07-21 02:34:19.000000000 Z
+- name: tidytree
+  description: A Tidy Tool for Phylogenetic Tree Data Manipulation
+  package_url: https://cran.r-project.org/tidytree
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2020-07-21 02:34:19.000000000 Z
+- name: vegan
+  description: Community Ecology Package
+  package_url: https://cran.r-project.org/vegan
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2022-04-13 09:11:21.000000000 Z
+- name: withr
+  description: Run Code 'With' Temporarily Modified Global State
+  package_url: https://cran.r-project.org/withr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2022-03-17 01:59:37.000000000 Z
+- name: yaml
+  description: Methods to Convert R Data to YAML and Back
+  package_url: https://cran.r-project.org/yaml
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source_url: https://github.com/2lambda123/microbiomeMarker/blob/master/DESCRIPTION
+  detection_source: DESCRIPTION
+  last_updated_by: yiluheihei
+  last_updated_on: 2020-10-21 03:18:14.000000000 Z
